@@ -1,28 +1,20 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createRoot } from "react-dom/client";
+import { RouterProvider } from "react-router-dom";
+import router from "./app/routers";
+import AppProviders from "./app/providers";
 
-import LayoutPage from "./pages/LayoutPage";
-import HomePage from "./pages/HomePage";
+import './shared/css/global.css'
 
-import './assets/css/global.css'
-import './assets/css/system.css'
+createRoot(document.getElementById('root')).render(
 
-const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <LayoutPage/>,
-        children: [
-            {
-                path: '',
-                element: <HomePage/>
-            }
-        ]
-    }
-]);
+    <>
+    
+        <AppProviders>
+        
+            <RouterProvider router={router} />
+        
+        </AppProviders>
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+    </>
 
-root.render(
-    <RouterProvider router={router} />
 )
