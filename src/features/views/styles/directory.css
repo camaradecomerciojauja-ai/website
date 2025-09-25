@@ -1,0 +1,14 @@
+.__section_membership {
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.__section_membership .__content_section {
+    width: 80%;
+    margin: auto;
+}
+
+.__section_membership .__content_section .__tit {
+    width: 100%;
+    margin-bottom: 2rem;
+}
