@@ -25,7 +25,7 @@ export default function Header () {
                     <ul className='__nav'>
                         {navlinks.map((nl, index) => (
                             <li key={index} className={`__nav_item __nav_item_desktop`}>
-                                <a className={`__link_nav ${nl.active ? '__link_nav--active' : ''}`} href={`${nl.link}`}>{nl.txt}</a>
+                                <a className={`__link_nav ${nl.active ? '__link_nav--active' : ''}`} href={`${nl.link}`} target={nl.blank ? "_blank" : "_self"} rel={nl.blank ? "noopener noreferrer" : undefined}>{nl.txt}</a>
                             </li>
                         ))}
                         <li className='__nav_item __nav_item_mobile'>

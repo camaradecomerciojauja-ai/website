@@ -41,7 +41,7 @@ export default function Footer () {
                         <ul>
                             {navlinks.map((n, i) => (
                                 <li key={i}>
-                                    <a href={n.link}>{n.txt}</a>
+                                    <a href={n.link} target={n.blank ? '_blank' : '_self'} rel={n.blank ? "noopener noreferrer" : undefined}>{n.txt}</a>
                                 </li>
                             ))}
                         </ul>

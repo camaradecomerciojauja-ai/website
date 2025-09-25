@@ -1,54 +1,62 @@
 import { IconBrandFacebook, IconBrandLinkedin, IconBrandWhatsapp, IconBrandX } from '@tabler/icons-react'
 
+const message = 'Me podría brindar información para ser parte de la Cámara de Comercio de Jauja'
+
 export const navlinks = [
     {
         link: '/',
         txt: 'Inicio',
         active: false,
+        blank: false
     },
     {
         link: '/',
         txt: 'Servicios',
         active: false,
+        blank: false
     },
     {
         link: '/',
         txt: 'Entrevistas',
         active: false,
+        blank: false
     },
     {
         link: '/',
         txt: 'Capacitaciones',
         active: false,
+        blank: false
     },
     {
         link: '/',
         txt: 'Nosotros',
         active: false,
+        blank: false
     },
     {
-        link: '/',
+        link: `https://wa.me/51977498134/?text=${encodeURIComponent(message)}`,
         txt: 'Inscribirse',
         active: true,
+        blank: true
     }
 ]
 
 export const socials = [
     {
         ico: <IconBrandFacebook/>,
-        url: ''
+        url: 'https://www.facebook.com/camaradejauja'
     },
     {
         ico: <IconBrandLinkedin/>,
-        url: ''
+        url: 'https://www.linkedin.com/company/camara-de-jauja'
     },
     {
         ico: <IconBrandX/>,
-        url: ''
+        url: 'https://x.com/CamaraJauja'
     },
     {
         ico: <IconBrandWhatsapp/>,
-        url: ''
+        url: `https://wa.me/51977498134/?text=${encodeURIComponent(message)}`
     }
 ]
 
