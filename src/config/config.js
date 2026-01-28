@@ -10,34 +10,28 @@ export const navlinks = [
         blank: false
     },
     {
-        link: '/',
+        link: '/services',
         txt: 'Servicios',
         active: false,
         blank: false
     },
     {
-        link: '/',
+        link: '/interviews',
         txt: 'Entrevistas',
         active: false,
         blank: false
     },
     {
-        link: '/',
+        link: '/training',
         txt: 'Capacitaciones',
         active: false,
         blank: false
     },
     {
-        link: '/',
+        link: '/about',
         txt: 'Nosotros',
         active: false,
         blank: false
-    },
-    {
-        link: `https://wa.me/51977498134/?text=${encodeURIComponent(message)}`,
-        txt: 'Inscribirse',
-        active: true,
-        blank: true
     }
 ]
 
@@ -64,7 +58,8 @@ export const team = [
     {
         name: "Danny Maita Mayor",
         post: "Presidente del Consejo Directivo",
-        photo: "url-de-la-foto.jpg"
+        photo: "url-de-la-foto.jpg",
+        correo: "presidencia@camaradejauja.org.pe"
     },
     {
         name: "J. Franco Pérez Caro",

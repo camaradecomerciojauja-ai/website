@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "../features/layout";
-import HomeView from "../features/views/HomeView";
+import HomePage from "../features/pages/HomePage";
 import DirectoryView from "../features/views/DirectoryView";
 
 const router = createBrowserRouter([
@@ -10,7 +10,22 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <HomeView/>
+                element: <HomePage/>
+            },
+            {
+                path: '/services'
+            },
+            {
+                path: '/interviews'
+            },
+            {
+                path: '/training'
+            },
+            {
+                path: '/about'
+            },
+            {
+                path: '/register'
             },
             {
                 path: '/membership-directory',

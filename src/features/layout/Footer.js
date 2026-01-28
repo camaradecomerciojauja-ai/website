@@ -32,7 +32,7 @@ export default function Footer () {
                             </li>
                             <li>
                                 <h3>Correo</h3>
-                                <p>camaradecomerciojauja@gmail.com</p>
+                                <p>contacto@camaradejauja.org.pe</p>
                             </li>
                         </ul>
                     </div>
