@@ -1,9 +1,13 @@
+import { AuthProvider } from "../context/AuthContext";
+
 export default function AppProviders ({ children }) {
 
     return (
 
         <>
-            {children}
+            <AuthProvider>
+                {children}
+            </AuthProvider>
         </>
 
     )

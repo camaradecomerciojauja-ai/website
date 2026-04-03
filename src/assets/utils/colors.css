@@ -1,0 +1,59 @@
+:root {
+
+    --color-primary: #003059;
+    --color-primary-bg: #002442;
+    --color-primary-light: #0A4A85;
+    --color-primary-hover: #00264A;
+    --color-primary-transparent: rgb(0, 48, 89, .2);
+
+    --color-yellow: #F8B53B;
+    --color-yellow-hover: #E0A12F;
+    --color-yellow-light: #FFD37A;
+
+    --color-white: #FFFFFF;
+    --color-dark: #181818;
+
+    --color-background: #F2F0F5;
+    --color-background-alt: #ECEAF0;
+
+    --color-secondary: #F5F5F5;
+    --color-secondary-dark: #E6E6E6;
+
+    --color-gray: #888888;
+    --color-gray-light: #B5B5B5;
+    --color-gray-dark: #5C5C5C;
+
+    --color-border: #DDDDDD;
+    --color-divider: #E3E3E3;
+
+    --color-success: #2E7D32;
+    --color-warning: #ED6C02;
+    --color-error: #D32F2F;
+    --color-info: #0288D1;
+
+}
+
+.text-primary { color: var(--color-primary); }
+.text-yellow { color: var(--color-yellow); }
+.text-white { color: var(--color-white); }
+.text-dark { color: var(--color-dark); }
+.text-gray { color: var(--color-gray); }
+.text-gray-light { color: var(--color-gray-light); }
+.text-gray-dark { color: var(--color-gray-dark); }
+.text-danger { color: #FF0000; }
+
+.bg-none { background: none; }
+.bg-transparent { background: transparent; }
+.bg-primary { background-color: var(--color-primary); }
+.bg-primary-bg { background-color: var(--color-primary-bg); }
+.bg-primary-transparent { background-color: var(--color-primary-transparent); }
+.bg-secondary { background-color: var(--color-yellow); }
+.bg-secondary:hover { background-color: var(--color-yellow-hover); }
+.bg-white { background-color: var(--color-white); }
+.bg-gray { background-color: var(--color-gray); }
+.bg-gray-light { background-color: var(--color-gray-light); }
+.bg-gray-dark { background-color: var(--color-gray-dark); }
+.bg-default { background-color: var(--color-background); }
+.bg-danger-trans { background-color: #ff000030; }
+.bg-hover:hover { background-color: #f7f7f7; }
+.bg-hover.active { background-color: #f7f7f7; }

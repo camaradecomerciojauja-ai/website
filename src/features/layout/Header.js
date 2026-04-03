@@ -48,7 +48,7 @@ export default function Header () {
                 </nav>
 
                 <div className='flex align-center gap-md'>
-                    <Link to={'/register'} className='block py-sm px-md bg-secondary text-semibold rounded-pill'>Inscribirse</Link>
+                    <Link to={'/join'} className='block py-sm px-md bg-secondary text-semibold rounded-pill'>Inscribirse</Link>
                     <button className='w h center lg:none' style={{"--w": "40px", "--h": "40px"}} onClick={() => setNav(!nav)}>{nav ? <IconX color={scrolled && nav ? '#003059' : '#FFFFFF'} /> : <IconMenu color={scrolled && !nav ? '#003059' : '#FFFFFF'} />}</button>
                 </div>
 

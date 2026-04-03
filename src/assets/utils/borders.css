@@ -1,0 +1,23 @@
+:root {
+    --radius-xs: 3px;
+    --radius-sm: 5px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --radius-pill: 50px;
+    --radius-circle: 50%;
+}
+
+.rounded-xs {border-radius: var(--radius-xs);}
+.rounded-sm {border-radius: var(--radius-sm);}
+.rounded-md {border-radius: var(--radius-md);}
+.rounded-lg {border-radius: var(--radius-lg);}
+.rounded-xl {border-radius: var(--radius-xl);}
+.rounded-pill {border-radius: var(--radius-pill);}
+.rounded-circle {border-radius: var(--radius-circle);}
+
+.border { border: 1px solid #EEEEEE; }
+.border-top { border-top: 1px solid #EEEEEE; }
+.border-left { border-left: 1px solid #EEEEEE; }
+.border-right { border-right: 1px solid #EEEEEE; }
+.border-bottom { border-bottom: 1px solid #EEEEEE; }
